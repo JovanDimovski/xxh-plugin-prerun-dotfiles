@@ -1,3 +1,4 @@
 # MYZZSH CONFIG
-#
-# TRYING TO TEST IF UPDATES WORK
+
+# Aliases
+alias -- 'ls'='exa -a --icons'
