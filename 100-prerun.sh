@@ -34,4 +34,8 @@ if [[ ! -f $done_file ]]; then
   echo 'done' > $done_file
 fi
 cd $XXH_HOME
+echo "In 100-prerun.sh at $(date)" >> ~/.zshrc_log
+
 source ~/.zshrc
+
+alias -- 'lz'='exa -a --icons'
