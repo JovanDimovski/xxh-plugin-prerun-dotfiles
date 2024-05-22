@@ -1,4 +1,9 @@
+case $- in
+    *i*) ;;
+    *) return;;
+esac
 echo "Sourcing .zshrc at $(date)" >> ~/.zshrc_log
+# At the top of .zshrc
 
 # MYZZSH CONFIG
 
