@@ -34,3 +34,4 @@ if [[ ! -f $done_file ]]; then
   echo 'done' > $done_file
 fi
 cd $XXH_HOME
+source ~/.zshrc
