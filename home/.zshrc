@@ -15,3 +15,5 @@ fi
 alias -- 'ls'='exa -a --icons'
 
 TEST_VARIABLE="TEST VALUE"
+
+export PATH=$HOME/.nvim:$HOME/.micro:$PATH
